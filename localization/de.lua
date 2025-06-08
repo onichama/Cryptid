@@ -410,7 +410,10 @@ return {
 			},
 			c_cry_malware = {
 				name = "://MALWARE",
-				text = { "Füge {C:dark_edition}Fehlerhaft{} zu allen", "Karten {C:cry_code}in der Hand{} hinzu" },
+				text = { 
+					"Füge {C:dark_edition}Fehlerhaft{} zu allen", 
+					"Karten {C:cry_code}in der Hand{} hinzu" 
+				},
 			},
 			c_cry_merge = {
 				name = "://MERGE",
@@ -491,13 +494,23 @@ return {
 			},
 			c_cry_semicolon = {
 				name = ";//",
-				text = { "Enden momentane nicht-Boss {C:cry_code}Blind{}", "{C:cry_code}ohne{} Preisgeld zu bekommen" },
+				text = {
+					"Enden momentane nicht-Boss {C:cry_code}Blind{}", 
+					"{C:cry_code}ohne{} Preisgeld zu bekommen"
+				},
 			},
 			c_cry_spaghetti = {
 				name = "://SPAGHETTI",
 				text = {
 					"Erstelle einen {C:cry_code}Fehlerhaften{}",
 					"Essen Joker",
+				},
+			},
+			c_cry_global = {
+				name = "://GLOBAL",
+				text = {
+					"Wähle eine Spielkarte",
+					"um {C:cry_code}Global{} zu werden",
 				},
 			},
 			c_cry_variable = {
@@ -1339,7 +1352,7 @@ return {
 			j_cry_lebaron_james = {
 				name = "LeBaron James",
 				text = {
-					"Gespeilte und gewertete {C:attention}Könige{} geben",
+					"Gespielte und gewertete {C:attention}Könige{} geben",
 					"{C:attention}+#1#{} Handgröße für diese Runde",
 					"und lösen {C:attention}in der Hand{} Effekte aus",
 				},
@@ -2085,6 +2098,13 @@ return {
 					"ein {C:attention}#2#{} enthält",
 				},
 			},
+			j_cry_universe = {
+				name = "Universe",
+				text = {
+					"Andere {C:dark_edition}Astral{}-Karten",
+					"geben je {X:dark_edition,C:white}^#1#{} Mult",
+				},
+			},
 			j_cry_universum = {
 				name = "Universum",
 				text = {
@@ -2447,6 +2467,14 @@ return {
 			},
 		},
 		Spectral = {
+			c_cry_adversary = {
+				name = "Adversary",
+				text = {
+					"{C:red}Alle{} deiner {C:attention}Joker{} werden {C:dark_edition}negativ{},",
+					"{C:red}alle{} {C:attention}Joker{} im Shop kosten",
+					"{C:red}doppelt{} für den Rest des Durchlaufs",
+				},
+			},
 			c_cry_analog = {
 				name = "Analog",
 				text = {
@@ -3003,7 +3031,7 @@ return {
 				text = {
 					"{C:cry_code}Code{} Karten",
 					"können im",
-					"{C:attention}shop{} auftauchen",
+					"{C:attention}Shop{} auftauchen",
 				},
 			},
 			v_cry_copies = {
